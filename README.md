@@ -1,3 +1,19 @@
+# ---
+title: Oncology AI Insights
+emoji: 🧬
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: dashboard/app.py
+python_version: 3.9
+tags:
+	- streamlit
+	- oncology
+	- ai
+	- dashboard
+	- real-world-data
+license: mit
+# ---
 # AI-Powered Oncology Insights Platform
 
 ## Overview
