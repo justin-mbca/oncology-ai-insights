@@ -1,3 +1,10 @@
+
+# Fix for Hugging Face Spaces: set config/cache to /tmp
+import os
+os.environ["STREAMLIT_HOME"] = "/tmp"
+os.environ["XDG_CONFIG_HOME"] = "/tmp"
+os.environ["XDG_CACHE_HOME"] = "/tmp"
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
