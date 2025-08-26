@@ -1,0 +1,11 @@
+patient_id,age,gender,cancer_type,stage,diagnosis_date,biomarker_status,treatment,adverse_event,survival_months
+P001,67,F,Breast,II,2021-03-15,HER2+,Trastuzumab,None,28
+P002,59,M,Lung,III,2020-11-02,EGFR+,Osimertinib,Rash,18
+P003,72,F,Colorectal,IV,2019-07-21,BRAF-,FOLFOX,Neuropathy,12
+P004,50,M,Prostate,II,2022-01-10,AR+,Abiraterone,None,30
+P005,64,F,Ovarian,III,2021-06-18,BRCA1+,Carboplatin,Neutropenia,22
+P006,55,M,Lung,II,2022-04-05,ALK+,Alectinib,None,16
+P007,70,F,Breast,IV,2020-09-30,HER2-,Paclitaxel,Neuropathy,10
+P008,62,M,Colorectal,III,2021-12-12,BRAF+,FOLFIRI,Diarrhea,20
+P009,48,F,Ovarian,II,2022-05-25,BRCA2-,Paclitaxel,None,26
+P010,75,M,Prostate,IV,2019-02-14,AR-,Docetaxel,Fatigue,8
