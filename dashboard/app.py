@@ -18,7 +18,7 @@ This dashboard visualizes synthetic oncology patient data and demonstrates how A
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/synthetic_oncology_patients.csv")
+    return pd.read_csv("data/synthetic_oncology_patients.csv")
 
 df = load_data()
 
