@@ -17,6 +17,9 @@ license: mit
 # AI-Powered Oncology Insights Platform
 
 ## Overview
+
+**Live Demo:** [Hugging Face Space](https://huggingface.co/spaces/zhangju2023/oncology-ai-insights)
+
 This project demonstrates how AI and real-world data (RWD) can be leveraged to extract actionable insights in oncology. It simulates a workflow for clinical decision support, drug development, and patient outcome prediction using synthetic data and modern AI tools.
 
 ## Features
