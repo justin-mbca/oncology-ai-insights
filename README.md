@@ -27,13 +27,13 @@ This project demonstrates how AI and real-world data (RWD) can be leveraged to e
 
 ```mermaid
 flowchart TD
-	A[Synthetic RWD Data] --> B[Data Preprocessing (Python Scripts)]
-	B --> C[Exploratory Analysis (Jupyter Notebooks)]
-	C --> D[AI Modeling (Notebooks/Scripts)]
-	D --> E[Model Outputs & Metrics]
-	C --> F[Dashboard Visualization (Streamlit App)]
+	A[Synthetic RWD Data] --> B[Data Preprocessing - Python Scripts]
+	B --> C[Exploratory Analysis - Jupyter Notebooks]
+	C --> D[AI Modeling - Notebooks and Scripts]
+	D --> E[Model Outputs and Metrics]
+	C --> F[Dashboard Visualization - Streamlit App]
 	D --> F
-	A -.->|Upload/Update| F
+	A -.->|Upload or Update| F
 ```
 
 ## Features
