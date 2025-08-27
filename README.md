@@ -22,6 +22,19 @@ license: mit
 
 This project demonstrates how AI and real-world data (RWD) can be leveraged to extract actionable insights in oncology. It simulates a workflow for clinical decision support, drug development, and patient outcome prediction using synthetic data and modern AI tools.
 
+## Project Workflow
+
+```mermaid
+flowchart TD
+	A[Synthetic RWD Data] --> B[Data Preprocessing<br/>(Python Scripts)]
+	B --> C[Exploratory Analysis<br/>(Jupyter Notebooks)]
+	C --> D[AI Modeling<br/>(Notebooks/Scripts)]
+	D --> E[Model Outputs & Metrics]
+	C --> F[Dashboard Visualization<br/>(Streamlit App)]
+	D --> F
+	A -.->|Upload/Update| F
+```
+
 ## Features
 - **Synthetic Oncology Data**: Simulated EHR, genomics, and treatment datasets.
 - **NLP Pipelines**: Extract cancer staging, treatments, and adverse events from unstructured clinical notes.
