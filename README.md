@@ -59,7 +59,7 @@ flowchart TD
 1. Clone the repository.
 2. Install requirements (see `docs/requirements.txt` or notebook cells).
 3. Explore the notebooks for data analysis and modeling.
-	- [View the static data exploration notebook (HTML, GitHub Pages)](https://github.com/justin-mbca/oncology-ai-insights/blob/main/notebooks/01_data_exploration.ipynb)
+	- [View the data exploration notebook](https://github.com/justin-mbca/oncology-ai-insights/blob/main/notebooks/01_data_exploration.ipynb)
 4. Run the dashboard app for interactive visualizations.
 
 ## AI Tools & Techniques
