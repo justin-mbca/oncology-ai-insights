@@ -33,6 +33,16 @@ filtered_df = df[df['cancer_type'].isin(selected_cancer)]
 st.subheader("Patient Demographics")
 st.dataframe(filtered_df[['patient_id', 'age', 'gender', 'cancer_type', 'stage']])
 
+# Optional: Display static notebook HTML in the app
+st.markdown("---")
+st.header("📓 Data Exploration Notebook (Static View)")
+try:
+    with open("notebooks/01_data_exploration.html", "r", encoding="utf-8") as f:
+        html_content = f.read()
+    st.components.v1.html(html_content, height=800, scrolling=True)
+except Exception as e:
+    st.info("Static notebook preview not available.")
+
 st.subheader("Cancer Type Distribution")
 fig1 = px.histogram(filtered_df, x="cancer_type", color="gender", barmode="group", title="Cancer Type by Gender")
 st.plotly_chart(fig1, use_container_width=True)
